@@ -4,12 +4,13 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-// const root = ReactDOM.createRoot(document.getElementById('root'));
-// root.render(
-//   <React.StrictMode>
-//     <App />
-//   </React.StrictMode>
-// );
+// react router dom 이용한 화면구성
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
+);
 
 // import Library from "./component/Library"
 // const root = ReactDOM.createRoot(document.getElementById('root')); //Virtual Dom으로 전환한다
@@ -27,13 +28,13 @@ import reportWebVitals from './reportWebVitals';
 //   </React.StrictMode>
 // );
 
-import UserLogin from "./user/UserLogin";
-const root = ReactDOM.createRoot(document.getElementById('root')); //Virtual Dom으로 전환한다
-root.render(
-  <React.StrictMode>
-    <UserLogin />
-  </React.StrictMode>
-);
+// import UserLogin from "./user/UserLogin";
+// const root = ReactDOM.createRoot(document.getElementById('root')); //Virtual Dom으로 전환한다
+// root.render(
+//   <React.StrictMode>
+//     <UserLogin />
+//   </React.StrictMode>
+// );
 
 // app이 jsx로 만들어진 하나의 컴포넌트
 // If you want to start measuring performance in your app, pass a function
